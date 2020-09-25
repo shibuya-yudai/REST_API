@@ -21,7 +21,7 @@ func NewMySqlDb() database.SqlHandler {
         "password",
         "db",
         "3306",
-        "go_rest_api",
+        "REST_API",
     )
 
     conn, err := open(connectionString, 30)
