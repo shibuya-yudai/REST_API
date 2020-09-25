@@ -2,11 +2,11 @@
 
 ## ディレクトリ構造
 
-├── docker
-│   ├── api
-│   │   └── Dockerfile
-│   └── mysql
-│       ├── Dockerfile
+├── docker  
+│   ├── api 
+│   │   └── Dockerfile  
+│   └── mysql 
+│       ├── Dockerfile  
 │       ├── db
 │       │   ├── init.sql
 │       │   └── mysql_data
@@ -34,8 +34,4 @@
 
 ## 環境構築
 
-### インストール
-
-```
-brew install go
-```
+### featureブランチ
